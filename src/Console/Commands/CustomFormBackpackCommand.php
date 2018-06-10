@@ -82,11 +82,11 @@ class CustomFormBackpackCommand extends GeneratorCommand
 
         $this->info('');
         $this->info('In your CRUD controller add:');
-        $this->info("\$this->crud->setFormView('".$name."'');");
+        $this->info("\$this->crud->setFormView('".$name."');");
 
         $this->info('');
         $this->info('to use the entire width:');
-        $this->info("\$this->crud->setFormView('".$name."'',true);");
+        $this->info("\$this->crud->setFormView('".$name."',true);");
     }
 
     /**
