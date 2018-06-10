@@ -1,0 +1,17 @@
+{{--    
+  display your fields like this:
+
+  @include($t['fieldname1'], ['field'=>$f['fieldname1']])
+
+--}}
+<div class="row">
+
+  <div class="col-sm-8">
+    @include($t['fieldname1'], ['field'=>$f['fieldname1']])
+  </div>
+
+  <div class="col-sm-4">    
+    @include($t['fieldname2'], ['field'=>$f['fieldname2']])
+  </div>
+
+</div>

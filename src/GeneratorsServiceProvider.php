@@ -11,6 +11,7 @@ use Backpack\Generators\Console\Commands\RequestBackpackCommand;
 use Backpack\Generators\Console\Commands\CrudModelBackpackCommand;
 use Backpack\Generators\Console\Commands\CrudRequestBackpackCommand;
 use Backpack\Generators\Console\Commands\CrudControllerBackpackCommand;
+use Backpack\Generators\Console\Commands\CustomFormBackpackCommand;
 
 class GeneratorsServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,7 @@ class GeneratorsServiceProvider extends ServiceProvider
         ModelBackpackCommand::class,
         RequestBackpackCommand::class,
         ViewBackpackCommand::class,
+        CustomFormBackpackCommand::class,
     ];
 
     /**
